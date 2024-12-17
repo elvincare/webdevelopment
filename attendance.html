@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factory Management System - Attendance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Factory Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="employees.html">Employees</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="attendance-management">
+            <h2>Employee Attendance</h2>
+            <form id="attendanceForm">
+                <input type="text" id="attendee" placeholder="Employee Name" required>
+                <input type="date" id="date" required>
+                <button type="submit">Mark Attendance</button>
+            </form>
+            <ul id="attendanceList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Factory Management System</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

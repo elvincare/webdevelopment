@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factory Management System - Employees</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Factory Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="employees.html">Employees</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="employee-management">
+            <h2>Employee Management</h2>
+            <form id="employeeForm">
+                <input type="text" id="name" placeholder="Employee Name" required>
+                <input type="text" id="role" placeholder="Role" required>
+                <button type="submit">Add Employee</button>
+            </form>
+            <ul id="employeeList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Factory Management System</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

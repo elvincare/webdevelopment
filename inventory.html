@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factory Management System - Inventory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Factory Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="employees.html">Employees</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="inventory-management">
+            <h2>Inventory Management</h2>
+            <form id="inventoryForm">
+                <input type="text" id="productName" placeholder="Product Name" required>
+                <input type="number" id="quantity" placeholder="Quantity" required>
+                <input type="number" id="price" placeholder="Price" required>
+                <button type="submit">Add Product</button>
+            </form>
+            <ul id="inventoryList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Factory Management System</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
